@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Primera Web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8f6db5a445.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+        <div class="header__contenido contenedor">
+            <a href="index.html">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+            
+            <a class="header__icono">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+            <div class="header__barra">
+                <nav class="nav">
+                    <a href="#">Inicio</a>
+                    <a href="#">Acerca de mi</a>
+                    <a href="#">Trabajos</a>
+                    <a href="#">Servicios</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="seccion-principal" class="contenedor">
+        <section class="seccion-1">
+            <div class="acerca-de">
+            <h2>Acerca de mí</h2>
+            <p class="parrafo1">
+                ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+            </p>
+            <p class="parrafo2">
+                Me llamo Anthony, nací en Lima y vivo en Chosica. Me gusta el
+                helado.Me encantaría aprender a programar para poder ayudar a las
+                personas a mostrar lo que hacen.
+            </p>
+            </div>
+            <div class="acerca-imagen">
+            <img class="image" src="img/hero-img.jpg" alt="imagen personal" />
+            </div>
+        </section>
+
+        <section class="seccion-2">
+            <img
+            class="image"
+            src="img/carrusel-img.jpg"
+            alt="imagen de carrusel"
+            />
+        </section>
+    </main>
+
+    <section class="cursos contenedor">
+        <div class="curso">
+            <div class="curso-imagen">
+            <img src="img/carrusel-img.jpg" alt="imagen curso" />
+            </div>
+            <div class="curso-texto">
+            <h3>Recursos Gratuitos</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus excepturi ea esse veniam quod alias ducimus
+                distinctio, iusto, voluptates at itaque! Maxime dicta architecto
+                corporis cum laudantium blanditiis, error amet.
+            </p>
+            <a href="#">Saber más</a>
+            </div>
+        </div><!-- .curso -->
+
+        <div class="curso">
+            <div class="curso-imagen">
+            <img src="img/carrusel-img.jpg" alt="imagen curso" />
+            </div>
+            <div class="curso-texto">
+            <h3>Cursos Online</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus excepturi ea esse veniam quod alias ducimus
+                distinctio, iusto, voluptates at itaque! Maxime dicta architecto
+                corporis cum laudantium blanditiis, error amet.
+            </p>
+            <a href="#">Saber más</a>
+            </div>
+        </div><!-- .curso -->
+    </section>
+
+    <section class="contacto contenedor">
+        <h2 class="contacto__heading">Contacto</h2>
+        <p class="contacto__texto">!Esperamos tu consulta!</p>
+        <form id="formulario" action="#" method="GET" autocomplete="off">
+            <div class="form__campo">
+                <label for="nombre" class="form__label">Nombre:</label>
+                <input class="form__input" id="nombre" type="text" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form__campo">
+                <label for="email" class="form__label">Email:</label>
+                <input class="form__input" id="email" type="email" placeholder="Ingrese su correo">
+            </div>
+            <div class="form__campo">
+                <label for="mensaje" class="form__label">Mensaje:</label>
+                <textarea class="form__input form__text" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Redacte su mensaje"></textarea>
+            </div>
+            <div class="form__campo">
+                <input class="form__submit" type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <h3 class="footer-heading">Redes Sociales</h3>
+            <nav class="nav-footer">
+                <a href="inicio.html">Contacto</a>
+                <a href="#">Instagram</a>
+                <a href="https://www.google.com/">TikTok</a>
+                <a href="#">Whatsapp</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
