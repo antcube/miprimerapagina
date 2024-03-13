@@ -239,3 +239,12 @@ i {
 .nav-footer a {
     margin-bottom: 5px;
 }
+
+/* Main Cambio Git Hub */
+.greeting {
+    margin: 30px auto;
+    width: 50%;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
